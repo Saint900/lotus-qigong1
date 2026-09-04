@@ -2,52 +2,54 @@
   <defs>
     <!-- 花瓣渐变 - 从深酒红到浅粉 -->
     <linearGradient id="petalGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" style="stop-color:#6B1A28;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#8B2635;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#C95565;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#5C1622;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#8B2635;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D46675;stop-opacity:1" />
     </linearGradient>
     <!-- 外层花瓣渐变 -->
     <linearGradient id="outerPetalGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" style="stop-color:#7A1F2E;stop-opacity:0.9" />
-      <stop offset="100%" style="stop-color:#B84050;stop-opacity:0.7" />
+      <stop offset="0%" style="stop-color:#6B1A28;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#C95565;stop-opacity:0.6" />
     </linearGradient>
     <!-- 花蕊渐变 -->
-    <radialGradient id="stamenGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#E8C89A;stop-opacity:1" />
+    <radialGradient id="stamenGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#F0D8A8;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#C9A063;stop-opacity:1" />
     </radialGradient>
   </defs>
   
-  <!-- 最外层花瓣 - 左右各3片，营造层次感 -->
-  <path d="M32 50 C20 48, 10 38, 12 24 C18 32, 24 42, 32 46 Z" fill="url(#outerPetalGrad)" opacity="0.6"/>
-  <path d="M32 50 C44 48, 54 38, 52 24 C46 32, 40 42, 32 46 Z" fill="url(#outerPetalGrad)" opacity="0.6"/>
+  <!-- 最外层花瓣 - 左右展开，占满宽度 -->
+  <path d="M32 58 C14 56, 2 40, 6 20 C14 30, 22 48, 32 54 Z" fill="url(#outerPetalGrad)" opacity="0.5"/>
+  <path d="M32 58 C50 56, 62 40, 58 20 C50 30, 42 48, 32 54 Z" fill="url(#outerPetalGrad)" opacity="0.5"/>
   
-  <!-- 外层花瓣 - 5片 -->
-  <path d="M32 48 C22 44, 14 32, 18 18 C24 28, 28 40, 32 44 Z" fill="url(#outerPetalGrad)" opacity="0.75"/>
-  <path d="M32 48 C42 44, 50 32, 46 18 C40 28, 36 40, 32 44 Z" fill="url(#outerPetalGrad)" opacity="0.75"/>
-  <path d="M32 46 C26 40, 20 28, 24 14 C28 24, 30 36, 32 42 Z" fill="url(#petalGrad)" opacity="0.8"/>
-  <path d="M32 46 C38 40, 44 28, 40 14 C36 24, 34 36, 32 42 Z" fill="url(#petalGrad)" opacity="0.8"/>
+  <!-- 外层花瓣 - 5片，大而饱满 -->
+  <path d="M32 56 C18 52, 8 36, 14 14 C22 26, 28 46, 32 52 Z" fill="url(#outerPetalGrad)" opacity="0.7"/>
+  <path d="M32 56 C46 52, 56 36, 50 14 C42 26, 36 46, 32 52 Z" fill="url(#outerPetalGrad)" opacity="0.7"/>
   
-  <!-- 中心花瓣 - 最高，朝上 -->
-  <path d="M32 44 C30 32, 28 18, 32 8 C36 18, 34 32, 32 44 Z" fill="url(#petalGrad)"/>
+  <!-- 中层花瓣 -->
+  <path d="M32 54 C24 48, 18 32, 22 10 C27 22, 30 42, 32 50 Z" fill="url(#petalGrad)" opacity="0.85"/>
+  <path d="M32 54 C40 48, 46 32, 42 10 C37 22, 34 42, 32 50 Z" fill="url(#petalGrad)" opacity="0.85"/>
   
-  <!-- 花瓣脉络 - 增加细节和层次感 -->
-  <path d="M32 44 L32 12" stroke="#5A1520" stroke-width="0.5" opacity="0.3" fill="none"/>
-  <path d="M28 40 C26 30, 25 22, 26 16" stroke="#5A1520" stroke-width="0.4" opacity="0.25" fill="none"/>
-  <path d="M36 40 C38 30, 39 22, 38 16" stroke="#5A1520" stroke-width="0.4" opacity="0.25" fill="none"/>
+  <!-- 中心花瓣 - 最高，顶到画布顶部 -->
+  <path d="M32 52 C30 36, 28 16, 32 2 C36 16, 34 36, 32 52 Z" fill="url(#petalGrad)"/>
   
-  <!-- 花托 -->
-  <ellipse cx="32" cy="50" rx="7" ry="2.5" fill="#6B1A28" opacity="0.5"/>
+  <!-- 花瓣脉络 - 增加层次感 -->
+  <path d="M32 52 L32 6" stroke="#4A1019" stroke-width="0.6" opacity="0.25" fill="none"/>
+  <path d="M27 48 C24 34, 22 20, 24 12" stroke="#4A1019" stroke-width="0.5" opacity="0.2" fill="none"/>
+  <path d="M37 48 C40 34, 42 20, 40 12" stroke="#4A1019" stroke-width="0.5" opacity="0.2" fill="none"/>
   
-  <!-- 花蕊 - 中心金色 -->
-  <circle cx="32" cy="40" r="3" fill="url(#stamenGrad)"/>
-  <circle cx="29" cy="42" r="1.5" fill="url(#stamenGrad)" opacity="0.85"/>
-  <circle cx="35" cy="42" r="1.5" fill="url(#stamenGrad)" opacity="0.85"/>
-  <circle cx="30" cy="38" r="1.2" fill="url(#stamenGrad)" opacity="0.75"/>
-  <circle cx="34" cy="38" r="1.2" fill="url(#stamenGrad)" opacity="0.75"/>
+  <!-- 花托 - 底部 -->
+  <ellipse cx="32" cy="58" rx="9" ry="3" fill="#5C1622" opacity="0.4"/>
   
-  <!-- 花蕊顶端小点 -->
-  <circle cx="32" cy="37" r="0.8" fill="#F0D8A8" opacity="0.9"/>
-  <circle cx="28.5" cy="40.5" r="0.6" fill="#F0D8A8" opacity="0.8"/>
-  <circle cx="35.5" cy="40.5" r="0.6" fill="#F0D8A8" opacity="0.8"/>
+  <!-- 花蕊 - 大而醒目 -->
+  <circle cx="32" cy="46" r="4" fill="url(#stamenGrad)"/>
+  <circle cx="28" cy="49" r="2" fill="url(#stamenGrad)" opacity="0.85"/>
+  <circle cx="36" cy="49" r="2" fill="url(#stamenGrad)" opacity="0.85"/>
+  <circle cx="29" cy="44" r="1.5" fill="url(#stamenGrad)" opacity="0.75"/>
+  <circle cx="35" cy="44" r="1.5" fill="url(#stamenGrad)" opacity="0.75"/>
+  
+  <!-- 花蕊顶端亮点 -->
+  <circle cx="32" cy="43" r="1" fill="#F8E8C8" opacity="0.9"/>
+  <circle cx="27.5" cy="47.5" r="0.8" fill="#F8E8C8" opacity="0.8"/>
+  <circle cx="36.5" cy="47.5" r="0.8" fill="#F8E8C8" opacity="0.8"/>
 </svg>
