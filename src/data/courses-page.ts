@@ -28,7 +28,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: false,
     hasCertificate: true,
     description: 'Extremely simple, easy to learn, and effective. Strengthen body, prolong life, dispel diseases and improve health.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkphatg7sao_ve_miaoda',
+    imageUrl: '/images/course-1.jpg',
     category: 'qigong',
   },
   {
@@ -43,7 +43,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: true,
     hasCertificate: true,
     description: 'Learn to unblock Conception Vessel, Governor Vessel and Central Channel with simple movements.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkpgzbvhanq_ve_miaoda',
+    imageUrl: '/images/course-3.jpg',
     category: 'qigong',
   },
   {
@@ -58,7 +58,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: true,
     hasCertificate: false,
     description: 'A free beginner course to experience Qi sensation and understand the fundamentals of QiGong.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkpg5vpkqpo_ve_miaoda',
+    imageUrl: '/images/course-2.jpg',
     category: 'meditation',
   },
 ]

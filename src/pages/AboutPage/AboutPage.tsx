@@ -113,7 +113,7 @@ export default function AboutPage() {
                   className="absolute inset-0 bg-cover bg-center"
                   style={{
                     backgroundImage:
-                      'url(https://aka.doubaocdn.com/s/A6ryIh5lTR)',
+                      'url(/images/master.jpg)',
                   }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-foreground/50 via-transparent to-transparent" />

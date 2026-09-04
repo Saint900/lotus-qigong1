@@ -16,5 +16,5 @@ export const MOCK_HERO: IHero = {
   tagline: 'Immortality & Enlightenment',
   description: 'Lotus Moving Qigong embodies half the history of Chinese martial arts. Master it in 12 minutes and practice for a lifetime.',
   ctaText: 'Start here',
-  bgImageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkpg4ozqsbi_ve_miaoda',
+  bgImageUrl: '/images/hero-bg.jpg',
 }

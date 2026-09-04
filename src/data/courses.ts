@@ -28,7 +28,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: false,
     hasCertificate: true,
     description: 'Lotus Moving QiGong is extremely simple, extremely easy to learn, and extremely effective. Strengthen body, prolong life, dispel diseases and improve health.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkphatg7sao_ve_miaoda',
+    imageUrl: '/images/course-1.jpg',
     category: 'premium'
   },
   {
@@ -43,7 +43,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: true,
     hasCertificate: false,
     description: 'A gentle introduction to QiGong basics. Learn foundational breathing techniques and simple movements to start your wellness journey.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkpg5vpkqpo_ve_miaoda',
+    imageUrl: '/images/course-2.jpg',
     category: 'beginner'
   },
   {
@@ -58,7 +58,7 @@ export const MOCK_COURSES: ICourse[] = [
     isFree: false,
     hasCertificate: true,
     description: 'Deepen your practice with advanced meridian unblocking techniques. Unblock Conception Vessel, Governor Vessel and Central Channel.',
-    imageUrl: '/spark/app/app_17bvbj4uu76/runtime/api/v1/storage/object/bucket_aadkphgrwmweo_static/static%2Faadkpgzbvhanq_ve_miaoda',
+    imageUrl: '/images/course-3.jpg',
     category: 'advanced'
   }
 ]

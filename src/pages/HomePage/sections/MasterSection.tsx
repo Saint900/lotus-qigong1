@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { ArrowRight, Quote } from 'lucide-react';
 import { Lotus } from '@/components/ui/lotus-icon';
 
-const MASTER_IMAGE = 'https://aka.doubaocdn.com/s/A6ryIh5lTR';
+const MASTER_IMAGE = '/images/master.jpg';
 
 export default function MasterSection() {
   const navigate = useNavigate();
